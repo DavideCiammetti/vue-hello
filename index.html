@@ -10,8 +10,12 @@
 
     <div id="app">
 
-        <h1>{{message}}</h1>
-
+        <h1 :class="pippo">{{title}}</h1>
+        <p>{{text}}</p>
+       <div class="img-container">
+        <img v-bind:src="url" alt="">
+       </div>
+        <input type="text" v-model="title">
     </div>
 
 

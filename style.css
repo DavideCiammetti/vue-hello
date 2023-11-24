@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.img-container img{
+    width: 500px;
+    height: 300px;
+}
+.yellow{
+    color: yellow;
+}
+.color{
+    color: red;
+}

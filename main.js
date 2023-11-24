@@ -6,7 +6,10 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Primo giorno di vue!'
+      title: 'Bonus',
+      text: 'testo paragrafo',
+      url: 'img/streetart2.jpg',
+      pippo: 'color',
     }
   }
 }).mount('#app')
